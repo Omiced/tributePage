@@ -1,0 +1,46 @@
+main{
+    background-color: hsl(25, 10%, 15%);
+    color: hsl(24, 22%,75%);
+  }
+  header{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+  }
+  
+  
+  a{
+    color:white;
+  }
+  
+  footer{
+    display:flex;
+    flex-direction:row-reverse;
+    
+  }
+  
+  #img-div{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    background-color: hsla(24, 45%, 15%, 1);
+    color: hsla(24, 65%, 75%, 1);
+    margin: 50px;
+    margin-top: 25px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+  }
+  #image{
+    max-width: 75%;
+    height:auto;
+  }
+  #img-caption{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+  }
+  #tribute-info{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+   }
